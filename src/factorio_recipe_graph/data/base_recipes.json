@@ -1,0 +1,2019 @@
+{
+  "advanced-circuit": {
+    "item": "advanced-circuit",
+    "category": "electronics",
+    "energy": 6.0,
+    "ingredients": [
+      {
+        "name": "electronic-circuit",
+        "amount": 2.0,
+        "type": "item"
+      },
+      {
+        "name": "plastic-bar",
+        "amount": 2.0,
+        "type": "item"
+      },
+      {
+        "name": "copper-cable",
+        "amount": 4.0,
+        "type": "item"
+      }
+    ],
+    "results": [
+      {
+        "name": "advanced-circuit",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "allowed_machines": [
+      {
+        "name": "assembling-machine-2",
+        "crafting_speed": 0.75,
+        "module_slots": 2,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-3",
+        "crafting_speed": 1.25,
+        "module_slots": 4,
+        "size": 3
+      }
+    ],
+    "is_primitive": false
+  },
+  "assembling-machine-1": {
+    "item": "assembling-machine-1",
+    "category": "crafting",
+    "energy": 0.5,
+    "ingredients": [
+      {
+        "name": "electronic-circuit",
+        "amount": 3.0,
+        "type": "item"
+      },
+      {
+        "name": "iron-gear-wheel",
+        "amount": 5.0,
+        "type": "item"
+      },
+      {
+        "name": "iron-plate",
+        "amount": 9.0,
+        "type": "item"
+      }
+    ],
+    "results": [
+      {
+        "name": "assembling-machine-1",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "allowed_machines": [
+      {
+        "name": "assembling-machine-1",
+        "crafting_speed": 0.5,
+        "module_slots": 0,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-2",
+        "crafting_speed": 0.75,
+        "module_slots": 2,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-3",
+        "crafting_speed": 1.25,
+        "module_slots": 4,
+        "size": 3
+      }
+    ],
+    "is_primitive": false
+  },
+  "assembling-machine-2": {
+    "item": "assembling-machine-2",
+    "category": "crafting",
+    "energy": 0.5,
+    "ingredients": [
+      {
+        "name": "assembling-machine-1",
+        "amount": 1.0,
+        "type": "item"
+      },
+      {
+        "name": "electronic-circuit",
+        "amount": 3.0,
+        "type": "item"
+      },
+      {
+        "name": "iron-gear-wheel",
+        "amount": 5.0,
+        "type": "item"
+      },
+      {
+        "name": "steel-plate",
+        "amount": 2.0,
+        "type": "item"
+      }
+    ],
+    "results": [
+      {
+        "name": "assembling-machine-2",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "allowed_machines": [
+      {
+        "name": "assembling-machine-1",
+        "crafting_speed": 0.5,
+        "module_slots": 0,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-2",
+        "crafting_speed": 0.75,
+        "module_slots": 2,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-3",
+        "crafting_speed": 1.25,
+        "module_slots": 4,
+        "size": 3
+      }
+    ],
+    "is_primitive": false
+  },
+  "assembling-machine-3": {
+    "item": "assembling-machine-3",
+    "category": "crafting",
+    "energy": 0.5,
+    "ingredients": [
+      {
+        "name": "assembling-machine-2",
+        "amount": 2.0,
+        "type": "item"
+      },
+      {
+        "name": "speed-module",
+        "amount": 4.0,
+        "type": "item"
+      }
+    ],
+    "results": [
+      {
+        "name": "assembling-machine-3",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "allowed_machines": [
+      {
+        "name": "assembling-machine-1",
+        "crafting_speed": 0.5,
+        "module_slots": 0,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-2",
+        "crafting_speed": 0.75,
+        "module_slots": 2,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-3",
+        "crafting_speed": 1.25,
+        "module_slots": 4,
+        "size": 3
+      }
+    ],
+    "is_primitive": false
+  },
+  "automation-science-pack": {
+    "item": "automation-science-pack",
+    "category": "crafting",
+    "energy": 5.0,
+    "ingredients": [
+      {
+        "name": "copper-plate",
+        "amount": 1.0,
+        "type": "item"
+      },
+      {
+        "name": "iron-gear-wheel",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "results": [
+      {
+        "name": "automation-science-pack",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "allowed_machines": [
+      {
+        "name": "assembling-machine-1",
+        "crafting_speed": 0.5,
+        "module_slots": 0,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-2",
+        "crafting_speed": 0.75,
+        "module_slots": 2,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-3",
+        "crafting_speed": 1.25,
+        "module_slots": 4,
+        "size": 3
+      }
+    ],
+    "is_primitive": false
+  },
+  "battery": {
+    "item": "battery",
+    "category": "chemistry",
+    "energy": 4.0,
+    "ingredients": [
+      {
+        "name": "iron-plate",
+        "amount": 1.0,
+        "type": "item"
+      },
+      {
+        "name": "copper-plate",
+        "amount": 1.0,
+        "type": "item"
+      },
+      {
+        "name": "sulfuric-acid",
+        "amount": 20.0,
+        "type": "fluid"
+      }
+    ],
+    "results": [
+      {
+        "name": "battery",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "allowed_machines": [
+      {
+        "name": "chemical-plant",
+        "crafting_speed": 1.0,
+        "module_slots": 3,
+        "size": 3
+      }
+    ],
+    "is_primitive": false
+  },
+  "bulk-inserter": {
+    "item": "bulk-inserter",
+    "category": "crafting",
+    "energy": 0.5,
+    "ingredients": [
+      {
+        "name": "fast-inserter",
+        "amount": 1.0,
+        "type": "item"
+      },
+      {
+        "name": "advanced-circuit",
+        "amount": 1.0,
+        "type": "item"
+      },
+      {
+        "name": "iron-gear-wheel",
+        "amount": 1.0,
+        "type": "item"
+      },
+      {
+        "name": "electronic-circuit",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "results": [
+      {
+        "name": "bulk-inserter",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "allowed_machines": [
+      {
+        "name": "assembling-machine-1",
+        "crafting_speed": 0.5,
+        "module_slots": 0,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-2",
+        "crafting_speed": 0.75,
+        "module_slots": 2,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-3",
+        "crafting_speed": 1.25,
+        "module_slots": 4,
+        "size": 3
+      }
+    ],
+    "is_primitive": false
+  },
+  "chemical-science-pack": {
+    "item": "chemical-science-pack",
+    "category": "crafting",
+    "energy": 24.0,
+    "ingredients": [
+      {
+        "name": "advanced-circuit",
+        "amount": 3.0,
+        "type": "item"
+      },
+      {
+        "name": "engine-unit",
+        "amount": 2.0,
+        "type": "item"
+      },
+      {
+        "name": "sulfur",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "results": [
+      {
+        "name": "chemical-science-pack",
+        "amount": 2.0,
+        "type": "item"
+      }
+    ],
+    "allowed_machines": [
+      {
+        "name": "assembling-machine-1",
+        "crafting_speed": 0.5,
+        "module_slots": 0,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-2",
+        "crafting_speed": 0.75,
+        "module_slots": 2,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-3",
+        "crafting_speed": 1.25,
+        "module_slots": 4,
+        "size": 3
+      }
+    ],
+    "is_primitive": false
+  },
+  "copper-cable": {
+    "item": "copper-cable",
+    "category": "electronics",
+    "energy": 0.5,
+    "ingredients": [
+      {
+        "name": "copper-plate",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "results": [
+      {
+        "name": "copper-cable",
+        "amount": 2.0,
+        "type": "item"
+      }
+    ],
+    "allowed_machines": [
+      {
+        "name": "assembling-machine-2",
+        "crafting_speed": 0.75,
+        "module_slots": 2,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-3",
+        "crafting_speed": 1.25,
+        "module_slots": 4,
+        "size": 3
+      }
+    ],
+    "is_primitive": false
+  },
+  "copper-plate": {
+    "item": "copper-plate",
+    "category": "smelting",
+    "energy": 3.2,
+    "ingredients": [
+      {
+        "name": "copper-ore",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "results": [
+      {
+        "name": "copper-plate",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "allowed_machines": [
+      {
+        "name": "electric-furnace",
+        "crafting_speed": 2.0,
+        "module_slots": 2,
+        "size": 3
+      },
+      {
+        "name": "foundry",
+        "crafting_speed": 4.0,
+        "module_slots": 4,
+        "size": 5
+      },
+      {
+        "name": "steel-furnace",
+        "crafting_speed": 2.0,
+        "module_slots": 0,
+        "size": 2
+      },
+      {
+        "name": "stone-furnace",
+        "crafting_speed": 1.0,
+        "module_slots": 0,
+        "size": 2
+      }
+    ],
+    "is_primitive": false
+  },
+  "electric-engine-unit": {
+    "item": "electric-engine-unit",
+    "category": "crafting",
+    "energy": 10.0,
+    "ingredients": [
+      {
+        "name": "engine-unit",
+        "amount": 1.0,
+        "type": "item"
+      },
+      {
+        "name": "electronic-circuit",
+        "amount": 2.0,
+        "type": "item"
+      },
+      {
+        "name": "lubricant",
+        "amount": 15.0,
+        "type": "fluid"
+      }
+    ],
+    "results": [
+      {
+        "name": "electric-engine-unit",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "allowed_machines": [
+      {
+        "name": "assembling-machine-1",
+        "crafting_speed": 0.5,
+        "module_slots": 0,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-2",
+        "crafting_speed": 0.75,
+        "module_slots": 2,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-3",
+        "crafting_speed": 1.25,
+        "module_slots": 4,
+        "size": 3
+      }
+    ],
+    "is_primitive": false
+  },
+  "electric-furnace": {
+    "item": "electric-furnace",
+    "category": "crafting",
+    "energy": 5.0,
+    "ingredients": [
+      {
+        "name": "steel-plate",
+        "amount": 10.0,
+        "type": "item"
+      },
+      {
+        "name": "stone-brick",
+        "amount": 10.0,
+        "type": "item"
+      },
+      {
+        "name": "advanced-circuit",
+        "amount": 5.0,
+        "type": "item"
+      }
+    ],
+    "results": [
+      {
+        "name": "electric-furnace",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "allowed_machines": [
+      {
+        "name": "assembling-machine-1",
+        "crafting_speed": 0.5,
+        "module_slots": 0,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-2",
+        "crafting_speed": 0.75,
+        "module_slots": 2,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-3",
+        "crafting_speed": 1.25,
+        "module_slots": 4,
+        "size": 3
+      }
+    ],
+    "is_primitive": false
+  },
+  "electric-mining-drill": {
+    "item": "electric-mining-drill",
+    "category": "crafting",
+    "energy": 2.0,
+    "ingredients": [
+      {
+        "name": "electronic-circuit",
+        "amount": 3.0,
+        "type": "item"
+      },
+      {
+        "name": "iron-gear-wheel",
+        "amount": 5.0,
+        "type": "item"
+      },
+      {
+        "name": "iron-plate",
+        "amount": 10.0,
+        "type": "item"
+      }
+    ],
+    "results": [
+      {
+        "name": "electric-mining-drill",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "allowed_machines": [
+      {
+        "name": "assembling-machine-1",
+        "crafting_speed": 0.5,
+        "module_slots": 0,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-2",
+        "crafting_speed": 0.75,
+        "module_slots": 2,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-3",
+        "crafting_speed": 1.25,
+        "module_slots": 4,
+        "size": 3
+      }
+    ],
+    "is_primitive": false
+  },
+  "electronic-circuit": {
+    "item": "electronic-circuit",
+    "category": "electronics",
+    "energy": 0.5,
+    "ingredients": [
+      {
+        "name": "iron-plate",
+        "amount": 1.0,
+        "type": "item"
+      },
+      {
+        "name": "copper-cable",
+        "amount": 3.0,
+        "type": "item"
+      }
+    ],
+    "results": [
+      {
+        "name": "electronic-circuit",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "allowed_machines": [
+      {
+        "name": "assembling-machine-2",
+        "crafting_speed": 0.75,
+        "module_slots": 2,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-3",
+        "crafting_speed": 1.25,
+        "module_slots": 4,
+        "size": 3
+      }
+    ],
+    "is_primitive": false
+  },
+  "engine-unit": {
+    "item": "engine-unit",
+    "category": "crafting",
+    "energy": 10.0,
+    "ingredients": [
+      {
+        "name": "iron-gear-wheel",
+        "amount": 1.0,
+        "type": "item"
+      },
+      {
+        "name": "pipe",
+        "amount": 2.0,
+        "type": "item"
+      },
+      {
+        "name": "steel-plate",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "results": [
+      {
+        "name": "engine-unit",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "allowed_machines": [
+      {
+        "name": "assembling-machine-1",
+        "crafting_speed": 0.5,
+        "module_slots": 0,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-2",
+        "crafting_speed": 0.75,
+        "module_slots": 2,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-3",
+        "crafting_speed": 1.25,
+        "module_slots": 4,
+        "size": 3
+      }
+    ],
+    "is_primitive": false
+  },
+  "explosives": {
+    "item": "explosives",
+    "category": "chemistry",
+    "energy": 4.0,
+    "ingredients": [
+      {
+        "name": "sulfur",
+        "amount": 1.0,
+        "type": "item"
+      },
+      {
+        "name": "coal",
+        "amount": 1.0,
+        "type": "item"
+      },
+      {
+        "name": "water",
+        "amount": 10.0,
+        "type": "fluid"
+      }
+    ],
+    "results": [
+      {
+        "name": "explosives",
+        "amount": 2.0,
+        "type": "item"
+      }
+    ],
+    "allowed_machines": [
+      {
+        "name": "chemical-plant",
+        "crafting_speed": 1.0,
+        "module_slots": 3,
+        "size": 3
+      }
+    ],
+    "is_primitive": false
+  },
+  "express-transport-belt": {
+    "item": "express-transport-belt",
+    "category": "crafting-with-fluid",
+    "energy": 0.5,
+    "ingredients": [
+      {
+        "name": "fast-transport-belt",
+        "amount": 1.0,
+        "type": "item"
+      },
+      {
+        "name": "iron-gear-wheel",
+        "amount": 1.0,
+        "type": "item"
+      },
+      {
+        "name": "lubricant",
+        "amount": 10.0,
+        "type": "fluid"
+      }
+    ],
+    "results": [
+      {
+        "name": "express-transport-belt",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "allowed_machines": [
+      {
+        "name": "assembling-machine-2",
+        "crafting_speed": 0.75,
+        "module_slots": 2,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-3",
+        "crafting_speed": 1.25,
+        "module_slots": 4,
+        "size": 3
+      }
+    ],
+    "is_primitive": false
+  },
+  "fast-inserter": {
+    "item": "fast-inserter",
+    "category": "crafting",
+    "energy": 0.5,
+    "ingredients": [
+      {
+        "name": "inserter",
+        "amount": 1.0,
+        "type": "item"
+      },
+      {
+        "name": "electronic-circuit",
+        "amount": 2.0,
+        "type": "item"
+      },
+      {
+        "name": "iron-plate",
+        "amount": 2.0,
+        "type": "item"
+      }
+    ],
+    "results": [
+      {
+        "name": "fast-inserter",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "allowed_machines": [
+      {
+        "name": "assembling-machine-1",
+        "crafting_speed": 0.5,
+        "module_slots": 0,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-2",
+        "crafting_speed": 0.75,
+        "module_slots": 2,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-3",
+        "crafting_speed": 1.25,
+        "module_slots": 4,
+        "size": 3
+      }
+    ],
+    "is_primitive": false
+  },
+  "fast-transport-belt": {
+    "item": "fast-transport-belt",
+    "category": "crafting",
+    "energy": 0.5,
+    "ingredients": [
+      {
+        "name": "transport-belt",
+        "amount": 1.0,
+        "type": "item"
+      },
+      {
+        "name": "iron-gear-wheel",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "results": [
+      {
+        "name": "fast-transport-belt",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "allowed_machines": [
+      {
+        "name": "assembling-machine-1",
+        "crafting_speed": 0.5,
+        "module_slots": 0,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-2",
+        "crafting_speed": 0.75,
+        "module_slots": 2,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-3",
+        "crafting_speed": 1.25,
+        "module_slots": 4,
+        "size": 3
+      }
+    ],
+    "is_primitive": false
+  },
+  "firearm-magazine": {
+    "item": "firearm-magazine",
+    "category": "crafting",
+    "energy": 1.0,
+    "ingredients": [
+      {
+        "name": "iron-plate",
+        "amount": 4.0,
+        "type": "item"
+      }
+    ],
+    "results": [
+      {
+        "name": "firearm-magazine",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "allowed_machines": [
+      {
+        "name": "assembling-machine-1",
+        "crafting_speed": 0.5,
+        "module_slots": 0,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-2",
+        "crafting_speed": 0.75,
+        "module_slots": 2,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-3",
+        "crafting_speed": 1.25,
+        "module_slots": 4,
+        "size": 3
+      }
+    ],
+    "is_primitive": false
+  },
+  "flying-robot-frame": {
+    "item": "flying-robot-frame",
+    "category": "crafting",
+    "energy": 20.0,
+    "ingredients": [
+      {
+        "name": "electric-engine-unit",
+        "amount": 1.0,
+        "type": "item"
+      },
+      {
+        "name": "battery",
+        "amount": 2.0,
+        "type": "item"
+      },
+      {
+        "name": "steel-plate",
+        "amount": 1.0,
+        "type": "item"
+      },
+      {
+        "name": "electronic-circuit",
+        "amount": 3.0,
+        "type": "item"
+      }
+    ],
+    "results": [
+      {
+        "name": "flying-robot-frame",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "allowed_machines": [
+      {
+        "name": "assembling-machine-1",
+        "crafting_speed": 0.5,
+        "module_slots": 0,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-2",
+        "crafting_speed": 0.75,
+        "module_slots": 2,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-3",
+        "crafting_speed": 1.25,
+        "module_slots": 4,
+        "size": 3
+      }
+    ],
+    "is_primitive": false
+  },
+  "grenade": {
+    "item": "grenade",
+    "category": "crafting",
+    "energy": 8.0,
+    "ingredients": [
+      {
+        "name": "iron-plate",
+        "amount": 10.0,
+        "type": "item"
+      },
+      {
+        "name": "coal",
+        "amount": 10.0,
+        "type": "item"
+      }
+    ],
+    "results": [
+      {
+        "name": "grenade",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "allowed_machines": [
+      {
+        "name": "assembling-machine-1",
+        "crafting_speed": 0.5,
+        "module_slots": 0,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-2",
+        "crafting_speed": 0.75,
+        "module_slots": 2,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-3",
+        "crafting_speed": 1.25,
+        "module_slots": 4,
+        "size": 3
+      }
+    ],
+    "is_primitive": false
+  },
+  "inserter": {
+    "item": "inserter",
+    "category": "crafting",
+    "energy": 0.5,
+    "ingredients": [
+      {
+        "name": "electronic-circuit",
+        "amount": 1.0,
+        "type": "item"
+      },
+      {
+        "name": "iron-gear-wheel",
+        "amount": 1.0,
+        "type": "item"
+      },
+      {
+        "name": "iron-plate",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "results": [
+      {
+        "name": "inserter",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "allowed_machines": [
+      {
+        "name": "assembling-machine-1",
+        "crafting_speed": 0.5,
+        "module_slots": 0,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-2",
+        "crafting_speed": 0.75,
+        "module_slots": 2,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-3",
+        "crafting_speed": 1.25,
+        "module_slots": 4,
+        "size": 3
+      }
+    ],
+    "is_primitive": false
+  },
+  "iron-gear-wheel": {
+    "item": "iron-gear-wheel",
+    "category": "crafting",
+    "energy": 0.5,
+    "ingredients": [
+      {
+        "name": "iron-plate",
+        "amount": 2.0,
+        "type": "item"
+      }
+    ],
+    "results": [
+      {
+        "name": "iron-gear-wheel",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "allowed_machines": [
+      {
+        "name": "assembling-machine-1",
+        "crafting_speed": 0.5,
+        "module_slots": 0,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-2",
+        "crafting_speed": 0.75,
+        "module_slots": 2,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-3",
+        "crafting_speed": 1.25,
+        "module_slots": 4,
+        "size": 3
+      }
+    ],
+    "is_primitive": false
+  },
+  "iron-plate": {
+    "item": "iron-plate",
+    "category": "smelting",
+    "energy": 3.2,
+    "ingredients": [
+      {
+        "name": "iron-ore",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "results": [
+      {
+        "name": "iron-plate",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "allowed_machines": [
+      {
+        "name": "electric-furnace",
+        "crafting_speed": 2.0,
+        "module_slots": 2,
+        "size": 3
+      },
+      {
+        "name": "foundry",
+        "crafting_speed": 4.0,
+        "module_slots": 4,
+        "size": 5
+      },
+      {
+        "name": "steel-furnace",
+        "crafting_speed": 2.0,
+        "module_slots": 0,
+        "size": 2
+      },
+      {
+        "name": "stone-furnace",
+        "crafting_speed": 1.0,
+        "module_slots": 0,
+        "size": 2
+      }
+    ],
+    "is_primitive": false
+  },
+  "iron-stick": {
+    "item": "iron-stick",
+    "category": "crafting",
+    "energy": 0.5,
+    "ingredients": [
+      {
+        "name": "iron-plate",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "results": [
+      {
+        "name": "iron-stick",
+        "amount": 2.0,
+        "type": "item"
+      }
+    ],
+    "allowed_machines": [
+      {
+        "name": "assembling-machine-1",
+        "crafting_speed": 0.5,
+        "module_slots": 0,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-2",
+        "crafting_speed": 0.75,
+        "module_slots": 2,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-3",
+        "crafting_speed": 1.25,
+        "module_slots": 4,
+        "size": 3
+      }
+    ],
+    "is_primitive": false
+  },
+  "logistic-science-pack": {
+    "item": "logistic-science-pack",
+    "category": "crafting",
+    "energy": 6.0,
+    "ingredients": [
+      {
+        "name": "transport-belt",
+        "amount": 1.0,
+        "type": "item"
+      },
+      {
+        "name": "inserter",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "results": [
+      {
+        "name": "logistic-science-pack",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "allowed_machines": [
+      {
+        "name": "assembling-machine-1",
+        "crafting_speed": 0.5,
+        "module_slots": 0,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-2",
+        "crafting_speed": 0.75,
+        "module_slots": 2,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-3",
+        "crafting_speed": 1.25,
+        "module_slots": 4,
+        "size": 3
+      }
+    ],
+    "is_primitive": false
+  },
+  "low-density-structure": {
+    "item": "low-density-structure",
+    "category": "crafting",
+    "energy": 15.0,
+    "ingredients": [
+      {
+        "name": "steel-plate",
+        "amount": 2.0,
+        "type": "item"
+      },
+      {
+        "name": "copper-plate",
+        "amount": 20.0,
+        "type": "item"
+      },
+      {
+        "name": "plastic-bar",
+        "amount": 5.0,
+        "type": "item"
+      }
+    ],
+    "results": [
+      {
+        "name": "low-density-structure",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "allowed_machines": [
+      {
+        "name": "assembling-machine-1",
+        "crafting_speed": 0.5,
+        "module_slots": 0,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-2",
+        "crafting_speed": 0.75,
+        "module_slots": 2,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-3",
+        "crafting_speed": 1.25,
+        "module_slots": 4,
+        "size": 3
+      }
+    ],
+    "is_primitive": false
+  },
+  "military-science-pack": {
+    "item": "military-science-pack",
+    "category": "crafting",
+    "energy": 10.0,
+    "ingredients": [
+      {
+        "name": "piercing-rounds-magazine",
+        "amount": 1.0,
+        "type": "item"
+      },
+      {
+        "name": "grenade",
+        "amount": 1.0,
+        "type": "item"
+      },
+      {
+        "name": "wall",
+        "amount": 2.0,
+        "type": "item"
+      }
+    ],
+    "results": [
+      {
+        "name": "military-science-pack",
+        "amount": 2.0,
+        "type": "item"
+      }
+    ],
+    "allowed_machines": [
+      {
+        "name": "assembling-machine-1",
+        "crafting_speed": 0.5,
+        "module_slots": 0,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-2",
+        "crafting_speed": 0.75,
+        "module_slots": 2,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-3",
+        "crafting_speed": 1.25,
+        "module_slots": 4,
+        "size": 3
+      }
+    ],
+    "is_primitive": false
+  },
+  "piercing-rounds-magazine": {
+    "item": "piercing-rounds-magazine",
+    "category": "crafting",
+    "energy": 3.0,
+    "ingredients": [
+      {
+        "name": "firearm-magazine",
+        "amount": 1.0,
+        "type": "item"
+      },
+      {
+        "name": "steel-plate",
+        "amount": 1.0,
+        "type": "item"
+      },
+      {
+        "name": "copper-plate",
+        "amount": 5.0,
+        "type": "item"
+      }
+    ],
+    "results": [
+      {
+        "name": "piercing-rounds-magazine",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "allowed_machines": [
+      {
+        "name": "assembling-machine-1",
+        "crafting_speed": 0.5,
+        "module_slots": 0,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-2",
+        "crafting_speed": 0.75,
+        "module_slots": 2,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-3",
+        "crafting_speed": 1.25,
+        "module_slots": 4,
+        "size": 3
+      }
+    ],
+    "is_primitive": false
+  },
+  "pipe": {
+    "item": "pipe",
+    "category": "crafting",
+    "energy": 0.5,
+    "ingredients": [
+      {
+        "name": "iron-plate",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "results": [
+      {
+        "name": "pipe",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "allowed_machines": [
+      {
+        "name": "assembling-machine-1",
+        "crafting_speed": 0.5,
+        "module_slots": 0,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-2",
+        "crafting_speed": 0.75,
+        "module_slots": 2,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-3",
+        "crafting_speed": 1.25,
+        "module_slots": 4,
+        "size": 3
+      }
+    ],
+    "is_primitive": false
+  },
+  "plastic-bar": {
+    "item": "plastic-bar",
+    "category": "chemistry",
+    "energy": 1.0,
+    "ingredients": [
+      {
+        "name": "petroleum-gas",
+        "amount": 20.0,
+        "type": "fluid"
+      },
+      {
+        "name": "coal",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "results": [
+      {
+        "name": "plastic-bar",
+        "amount": 2.0,
+        "type": "item"
+      }
+    ],
+    "allowed_machines": [
+      {
+        "name": "chemical-plant",
+        "crafting_speed": 1.0,
+        "module_slots": 3,
+        "size": 3
+      }
+    ],
+    "is_primitive": false
+  },
+  "processing-unit": {
+    "item": "processing-unit",
+    "category": "electronics-with-fluid",
+    "energy": 10.0,
+    "ingredients": [
+      {
+        "name": "electronic-circuit",
+        "amount": 20.0,
+        "type": "item"
+      },
+      {
+        "name": "advanced-circuit",
+        "amount": 2.0,
+        "type": "item"
+      },
+      {
+        "name": "sulfuric-acid",
+        "amount": 5.0,
+        "type": "fluid"
+      }
+    ],
+    "results": [
+      {
+        "name": "processing-unit",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "allowed_machines": [
+      {
+        "name": "assembling-machine-3",
+        "crafting_speed": 1.25,
+        "module_slots": 4,
+        "size": 3
+      }
+    ],
+    "is_primitive": false
+  },
+  "production-science-pack": {
+    "item": "production-science-pack",
+    "category": "crafting",
+    "energy": 21.0,
+    "ingredients": [
+      {
+        "name": "rail",
+        "amount": 30.0,
+        "type": "item"
+      },
+      {
+        "name": "electric-furnace",
+        "amount": 1.0,
+        "type": "item"
+      },
+      {
+        "name": "productivity-module",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "results": [
+      {
+        "name": "production-science-pack",
+        "amount": 3.0,
+        "type": "item"
+      }
+    ],
+    "allowed_machines": [
+      {
+        "name": "assembling-machine-1",
+        "crafting_speed": 0.5,
+        "module_slots": 0,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-2",
+        "crafting_speed": 0.75,
+        "module_slots": 2,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-3",
+        "crafting_speed": 1.25,
+        "module_slots": 4,
+        "size": 3
+      }
+    ],
+    "is_primitive": false
+  },
+  "productivity-module": {
+    "item": "productivity-module",
+    "category": "crafting",
+    "energy": 15.0,
+    "ingredients": [
+      {
+        "name": "advanced-circuit",
+        "amount": 5.0,
+        "type": "item"
+      },
+      {
+        "name": "electronic-circuit",
+        "amount": 5.0,
+        "type": "item"
+      }
+    ],
+    "results": [
+      {
+        "name": "productivity-module",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "allowed_machines": [
+      {
+        "name": "assembling-machine-1",
+        "crafting_speed": 0.5,
+        "module_slots": 0,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-2",
+        "crafting_speed": 0.75,
+        "module_slots": 2,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-3",
+        "crafting_speed": 1.25,
+        "module_slots": 4,
+        "size": 3
+      }
+    ],
+    "is_primitive": false
+  },
+  "rail": {
+    "item": "rail",
+    "category": "crafting",
+    "energy": 0.5,
+    "ingredients": [
+      {
+        "name": "stone",
+        "amount": 1.0,
+        "type": "item"
+      },
+      {
+        "name": "iron-stick",
+        "amount": 1.0,
+        "type": "item"
+      },
+      {
+        "name": "steel-plate",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "results": [
+      {
+        "name": "rail",
+        "amount": 2.0,
+        "type": "item"
+      }
+    ],
+    "allowed_machines": [
+      {
+        "name": "assembling-machine-1",
+        "crafting_speed": 0.5,
+        "module_slots": 0,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-2",
+        "crafting_speed": 0.75,
+        "module_slots": 2,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-3",
+        "crafting_speed": 1.25,
+        "module_slots": 4,
+        "size": 3
+      }
+    ],
+    "is_primitive": false
+  },
+  "rocket-fuel": {
+    "item": "rocket-fuel",
+    "category": "crafting-with-fluid",
+    "energy": 15.0,
+    "ingredients": [
+      {
+        "name": "solid-fuel",
+        "amount": 10.0,
+        "type": "item"
+      },
+      {
+        "name": "light-oil",
+        "amount": 10.0,
+        "type": "fluid"
+      }
+    ],
+    "results": [
+      {
+        "name": "rocket-fuel",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "allowed_machines": [
+      {
+        "name": "assembling-machine-2",
+        "crafting_speed": 0.75,
+        "module_slots": 2,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-3",
+        "crafting_speed": 1.25,
+        "module_slots": 4,
+        "size": 3
+      }
+    ],
+    "is_primitive": false
+  },
+  "solid-fuel": {
+    "item": "solid-fuel",
+    "category": "chemistry",
+    "energy": 1.0,
+    "ingredients": [
+      {
+        "name": "petroleum-gas",
+        "amount": 20.0,
+        "type": "fluid"
+      }
+    ],
+    "results": [
+      {
+        "name": "solid-fuel",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "allowed_machines": [
+      {
+        "name": "chemical-plant",
+        "crafting_speed": 1.0,
+        "module_slots": 3,
+        "size": 3
+      }
+    ],
+    "is_primitive": false
+  },
+  "speed-module": {
+    "item": "speed-module",
+    "category": "crafting",
+    "energy": 15.0,
+    "ingredients": [
+      {
+        "name": "advanced-circuit",
+        "amount": 5.0,
+        "type": "item"
+      },
+      {
+        "name": "electronic-circuit",
+        "amount": 5.0,
+        "type": "item"
+      }
+    ],
+    "results": [
+      {
+        "name": "speed-module",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "allowed_machines": [
+      {
+        "name": "assembling-machine-1",
+        "crafting_speed": 0.5,
+        "module_slots": 0,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-2",
+        "crafting_speed": 0.75,
+        "module_slots": 2,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-3",
+        "crafting_speed": 1.25,
+        "module_slots": 4,
+        "size": 3
+      }
+    ],
+    "is_primitive": false
+  },
+  "steel-plate": {
+    "item": "steel-plate",
+    "category": "smelting",
+    "energy": 16.0,
+    "ingredients": [
+      {
+        "name": "iron-plate",
+        "amount": 5.0,
+        "type": "item"
+      }
+    ],
+    "results": [
+      {
+        "name": "steel-plate",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "allowed_machines": [
+      {
+        "name": "electric-furnace",
+        "crafting_speed": 2.0,
+        "module_slots": 2,
+        "size": 3
+      },
+      {
+        "name": "foundry",
+        "crafting_speed": 4.0,
+        "module_slots": 4,
+        "size": 5
+      },
+      {
+        "name": "steel-furnace",
+        "crafting_speed": 2.0,
+        "module_slots": 0,
+        "size": 2
+      },
+      {
+        "name": "stone-furnace",
+        "crafting_speed": 1.0,
+        "module_slots": 0,
+        "size": 2
+      }
+    ],
+    "is_primitive": false
+  },
+  "stone-brick": {
+    "item": "stone-brick",
+    "category": "smelting",
+    "energy": 3.2,
+    "ingredients": [
+      {
+        "name": "stone",
+        "amount": 2.0,
+        "type": "item"
+      }
+    ],
+    "results": [
+      {
+        "name": "stone-brick",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "allowed_machines": [
+      {
+        "name": "electric-furnace",
+        "crafting_speed": 2.0,
+        "module_slots": 2,
+        "size": 3
+      },
+      {
+        "name": "foundry",
+        "crafting_speed": 4.0,
+        "module_slots": 4,
+        "size": 5
+      },
+      {
+        "name": "steel-furnace",
+        "crafting_speed": 2.0,
+        "module_slots": 0,
+        "size": 2
+      },
+      {
+        "name": "stone-furnace",
+        "crafting_speed": 1.0,
+        "module_slots": 0,
+        "size": 2
+      }
+    ],
+    "is_primitive": false
+  },
+  "sulfur": {
+    "item": "sulfur",
+    "category": "chemistry",
+    "energy": 1.0,
+    "ingredients": [
+      {
+        "name": "water",
+        "amount": 30.0,
+        "type": "fluid"
+      },
+      {
+        "name": "petroleum-gas",
+        "amount": 30.0,
+        "type": "fluid"
+      }
+    ],
+    "results": [
+      {
+        "name": "sulfur",
+        "amount": 2.0,
+        "type": "item"
+      }
+    ],
+    "allowed_machines": [
+      {
+        "name": "chemical-plant",
+        "crafting_speed": 1.0,
+        "module_slots": 3,
+        "size": 3
+      }
+    ],
+    "is_primitive": false
+  },
+  "transport-belt": {
+    "item": "transport-belt",
+    "category": "crafting",
+    "energy": 0.5,
+    "ingredients": [
+      {
+        "name": "iron-plate",
+        "amount": 1.0,
+        "type": "item"
+      },
+      {
+        "name": "iron-gear-wheel",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "results": [
+      {
+        "name": "transport-belt",
+        "amount": 2.0,
+        "type": "item"
+      }
+    ],
+    "allowed_machines": [
+      {
+        "name": "assembling-machine-1",
+        "crafting_speed": 0.5,
+        "module_slots": 0,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-2",
+        "crafting_speed": 0.75,
+        "module_slots": 2,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-3",
+        "crafting_speed": 1.25,
+        "module_slots": 4,
+        "size": 3
+      }
+    ],
+    "is_primitive": false
+  },
+  "utility-science-pack": {
+    "item": "utility-science-pack",
+    "category": "crafting",
+    "energy": 21.0,
+    "ingredients": [
+      {
+        "name": "processing-unit",
+        "amount": 2.0,
+        "type": "item"
+      },
+      {
+        "name": "flying-robot-frame",
+        "amount": 1.0,
+        "type": "item"
+      },
+      {
+        "name": "low-density-structure",
+        "amount": 3.0,
+        "type": "item"
+      }
+    ],
+    "results": [
+      {
+        "name": "utility-science-pack",
+        "amount": 3.0,
+        "type": "item"
+      }
+    ],
+    "allowed_machines": [
+      {
+        "name": "assembling-machine-1",
+        "crafting_speed": 0.5,
+        "module_slots": 0,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-2",
+        "crafting_speed": 0.75,
+        "module_slots": 2,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-3",
+        "crafting_speed": 1.25,
+        "module_slots": 4,
+        "size": 3
+      }
+    ],
+    "is_primitive": false
+  },
+  "wall": {
+    "item": "wall",
+    "category": "crafting",
+    "energy": 0.5,
+    "ingredients": [
+      {
+        "name": "stone-brick",
+        "amount": 5.0,
+        "type": "item"
+      }
+    ],
+    "results": [
+      {
+        "name": "wall",
+        "amount": 1.0,
+        "type": "item"
+      }
+    ],
+    "allowed_machines": [
+      {
+        "name": "assembling-machine-1",
+        "crafting_speed": 0.5,
+        "module_slots": 0,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-2",
+        "crafting_speed": 0.75,
+        "module_slots": 2,
+        "size": 3
+      },
+      {
+        "name": "assembling-machine-3",
+        "crafting_speed": 1.25,
+        "module_slots": 4,
+        "size": 3
+      }
+    ],
+    "is_primitive": false
+  }
+}

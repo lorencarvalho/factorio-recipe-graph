@@ -1,0 +1,180 @@
+{
+  "belts": {
+    "transport-belt": {
+      "speed": 0.03125,
+      "throughput": 15,
+      "underground_distance": 5
+    },
+    "fast-transport-belt": {
+      "speed": 0.0625,
+      "throughput": 30,
+      "underground_distance": 7
+    },
+    "express-transport-belt": {
+      "speed": 0.09375,
+      "throughput": 45,
+      "underground_distance": 9
+    },
+    "turbo-transport-belt": {
+      "speed": 0.125,
+      "throughput": 60,
+      "underground_distance": 11
+    }
+  },
+  "inserters": {
+    "inserter": {
+      "throughput": 0.83,
+      "reach": 1,
+      "stack_bonus": 0
+    },
+    "long-handed-inserter": {
+      "throughput": 1.20,
+      "reach": 2,
+      "stack_bonus": 0
+    },
+    "fast-inserter": {
+      "throughput": 2.31,
+      "reach": 1,
+      "stack_bonus": 0
+    },
+    "bulk-inserter": {
+      "throughput": 2.31,
+      "reach": 1,
+      "stack_bonus": 0
+    },
+    "stack-inserter": {
+      "throughput": 7.06,
+      "reach": 1,
+      "stack_bonus": 4
+    }
+  },
+  "poles": {
+    "small-electric-pole": {
+      "supply_area": 5,
+      "wire_distance": 7.5,
+      "size": 1
+    },
+    "medium-electric-pole": {
+      "supply_area": 7,
+      "wire_distance": 9,
+      "size": 1
+    },
+    "big-electric-pole": {
+      "supply_area": 4,
+      "wire_distance": 32,
+      "size": 2
+    },
+    "substation": {
+      "supply_area": 18,
+      "wire_distance": 18,
+      "size": 2
+    }
+  },
+  "pipes": {
+    "pipe": {
+      "size": 1,
+      "capacity": 100
+    }
+  },
+  "pipes_to_ground": {
+    "pipe-to-ground": {
+      "size": 1,
+      "capacity": 100,
+      "underground_distance": 10
+    }
+  },
+  "pumps": {
+    "pump": {
+      "size": 1,
+      "throughput": 1200
+    }
+  },
+  "machines": {
+    "assembling-machine-1": {
+      "crafting_speed": 0.5,
+      "size": 3,
+      "module_slots": 0,
+      "crafting_categories": ["crafting", "basic-crafting", "advanced-crafting"]
+    },
+    "assembling-machine-2": {
+      "crafting_speed": 0.75,
+      "size": 3,
+      "module_slots": 2,
+      "crafting_categories": ["crafting", "basic-crafting", "advanced-crafting", "electronics", "crafting-with-fluid"]
+    },
+    "assembling-machine-3": {
+      "crafting_speed": 1.25,
+      "size": 3,
+      "module_slots": 4,
+      "crafting_categories": ["crafting", "basic-crafting", "advanced-crafting", "electronics", "electronics-with-fluid", "crafting-with-fluid"],
+      "fluid_connections": [
+        {"type": "input", "dx": 0, "dy": 0, "dir": 0},
+        {"type": "input", "dx": 2, "dy": 0, "dir": 0},
+        {"type": "output", "dx": 0, "dy": 2, "dir": 8},
+        {"type": "output", "dx": 2, "dy": 2, "dir": 8}
+      ]
+    },
+    "stone-furnace": {
+      "crafting_speed": 1.0,
+      "size": 2,
+      "module_slots": 0,
+      "crafting_categories": ["smelting"]
+    },
+    "steel-furnace": {
+      "crafting_speed": 2.0,
+      "size": 2,
+      "module_slots": 0,
+      "crafting_categories": ["smelting"]
+    },
+    "electric-furnace": {
+      "crafting_speed": 2.0,
+      "size": 3,
+      "module_slots": 2,
+      "crafting_categories": ["smelting"]
+    },
+    "chemical-plant": {
+      "crafting_speed": 1.0,
+      "size": 3,
+      "module_slots": 3,
+      "crafting_categories": ["chemistry"],
+      "fluid_connections": [
+        {"type": "input", "dx": 0, "dy": 0, "dir": 0},
+        {"type": "input", "dx": 2, "dy": 0, "dir": 0},
+        {"type": "output", "dx": 0, "dy": 2, "dir": 8},
+        {"type": "output", "dx": 2, "dy": 2, "dir": 8}
+      ]
+    },
+    "oil-refinery": {
+      "crafting_speed": 1.0,
+      "size": 5,
+      "module_slots": 3,
+      "crafting_categories": ["oil-processing"],
+      "fluid_connections": [
+        {"type": "input", "dx": 1, "dy": 4, "dir": 8},
+        {"type": "input", "dx": 3, "dy": 4, "dir": 8},
+        {"type": "output", "dx": 0, "dy": 0, "dir": 0},
+        {"type": "output", "dx": 2, "dy": 0, "dir": 0},
+        {"type": "output", "dx": 4, "dy": 0, "dir": 0}
+      ]
+    },
+    "centrifuge": {
+      "crafting_speed": 1.0,
+      "size": 3,
+      "module_slots": 2,
+      "crafting_categories": ["centrifuging"]
+    },
+    "foundry": {
+      "crafting_speed": 4.0,
+      "size": 5,
+      "module_slots": 4,
+      "space_age": true,
+      "crafting_categories": ["smelting", "metallurgy"],
+      "fluid_connections": [
+        {"type": "input", "dx": 1, "dy": 0, "dir": 0},
+        {"type": "input", "dx": 3, "dy": 0, "dir": 0},
+        {"type": "output", "dx": 1, "dy": 4, "dir": 8},
+        {"type": "output", "dx": 3, "dy": 4, "dir": 8}
+      ]
+    }
+  }
+}
