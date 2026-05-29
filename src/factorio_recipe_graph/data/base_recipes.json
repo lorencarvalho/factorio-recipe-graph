@@ -2015,5 +2015,43 @@
       }
     ],
     "is_primitive": false
+  },
+  "sulfuric-acid": {
+    "item": "sulfuric-acid",
+    "category": "chemistry",
+    "energy": 1.0,
+    "ingredients": [
+      {
+        "name": "iron-plate",
+        "amount": 1.0,
+        "type": "item"
+      },
+      {
+        "name": "sulfur",
+        "amount": 5.0,
+        "type": "item"
+      },
+      {
+        "name": "water",
+        "amount": 100.0,
+        "type": "fluid"
+      }
+    ],
+    "results": [
+      {
+        "name": "sulfuric-acid",
+        "amount": 50.0,
+        "type": "fluid"
+      }
+    ],
+    "allowed_machines": [
+      {
+        "name": "chemical-plant",
+        "crafting_speed": 1.0,
+        "module_slots": 3,
+        "size": 3
+      }
+    ],
+    "is_primitive": false
   }
 }
