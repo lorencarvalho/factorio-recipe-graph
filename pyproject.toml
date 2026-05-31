@@ -1,10 +1,10 @@
 [build-system]
-requires = ["hatchling"]
+requires = ["hatchling", "hatch-vcs"]
 build-backend = "hatchling.build"
 
 [project]
 name = "factorio-recipe-graph"
-version = "0.1.0"
+dynamic = ["version"]
 description = "Build hierarchical recipe dependency graphs for Factorio: machines, throughput, and raw-resource totals from a target item and rate."
 readme = "README.md"
 requires-python = ">=3.11"
@@ -29,6 +29,10 @@ classifiers = [
 Homepage = "https://github.com/lorencarvalho/factorio-recipe-graph"
 Repository = "https://github.com/lorencarvalho/factorio-recipe-graph"
 Issues = "https://github.com/lorencarvalho/factorio-recipe-graph/issues"
+
+# Version is derived from the git tag (e.g. v0.2.0 -> 0.2.0) by hatch-vcs.
+[tool.hatch.version]
+source = "vcs"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/factorio_recipe_graph"]
