@@ -146,7 +146,6 @@ wheels = [
 
 [[package]]
 name = "factorio-recipe-graph"
-version = "0.1.0"
 source = { editable = "." }
 
 [package.dev-dependencies]
